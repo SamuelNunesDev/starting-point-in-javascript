@@ -19,3 +19,7 @@
     -> `document.write(`string ${var/method}`)` : Escreve imediatamente na tela o que estiver entre crases, inclusive podem ser implementadas tags html. *Os placeholders só podem ser utilizados quando a string estiver entre crases*
     -> `string.toUpperCase()` : Converte todas as letras minúsculas da string para letras maiúsculas
     -> `string.toLowerCase()` : Converte todas as letras Maiúsculas da string para letras minúsculas
+    -> `string.replace('a', 'n')` : Troca os valores 'a' pelos valores 'b' dentro de uma string
+    -> `string.length()` : Retorna a quantidade de caracteres que a string contém
+    -> `n.toFixed(p)` : Fixa a quantidade de casas decimas 'p' a serem exibidas em um número real 'n'.
+    -> `n.toLocaleString('pt-br', {style: 'currency', 'currency' : 'BRL'})` : Converte o número para valor monetário.
