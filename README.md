@@ -25,3 +25,22 @@
     -> `string.length()` : Retorna a quantidade de caracteres que a string contém
     -> `n.toFixed(p)` : Fixa a quantidade de casas decimas 'p' a serem exibidas em um número real 'n'.
     -> `n.toLocaleString('pt-br', {style: 'currency', 'currency' : 'BRL'})` : Converte o número para valor monetário.
+
+05. Acessando os elementos do site através do DOM, aprendendo os 5 principais métodos:
+    -> `getElementsByTagName` -> Retorna os objetos pela tag HTML
+    -> `getElementByID` -> Retorna o objeto pelo ID
+    -> `getElementsByName` -> Retorna os objetos pelo name
+    -> `getElementsByClassName` -> Retorna os objetos pelo nome da classe
+    -> `getElementBySelector` -> Retorna o objeto referente ao seletor CSS
+    Comentários adicionados no próprio exercício exemplificando a utilização.
+
+06. Manipulando os eventos DOM pelo html e direto pelo javascript, principais eventos:
+    -> `mouseenter` : é acionado quando o cursor entra dentro da div
+    -> `mouseout` : é acionado quando o cursos sai para fora da div
+    -> `mousemove` : é acionado quando o cursor se move dentro da div
+    -> `mousedown` : é acionado quando a div está sob o clique do cursor
+    -> `mouseup` : é acionado quando o clique termina
+    -> `click` : é acionado quando a div recebe um clique rapido/simples
+    Comentários adicionados no próprio exercício exemplificando a utilização.
+
+07. Criando inputs de numeros e fazendo uma soma entre eles.
