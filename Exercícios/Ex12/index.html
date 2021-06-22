@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 12</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #D97904;
+        }
+        h1 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #square{
+            background-color: white;
+            border-radius: 6px;
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            padding-top: 30px;
+            padding-bottom: 0px;
+        }
+        h2 {
+            margin: 0px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        img {
+            width: 325px;
+            height: 325px;
+            border-radius: 100%;
+            margin: auto;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hora do Dia</h1>
+    <div id="square">
+        <h2></h2>
+        <div id="img"></div>
+    </div>
+    <p><a href="https://wa.me/553888451471" target="_blank" rel="next">Fale Conosco - Samuel Nunes </a></p>
+    <script>
+        var hora = new Date().getUTCHours()
+        var minutos = new Date().getUTCMinutes()
+        var fundo = document.getElementsByTagName('body')[0]
+        var img = document.querySelector('div#img')
+        var msg = document.getElementsByTagName('h2')[0]
+        var link = document.querySelector('a')
+
+        msg.innerText = `Agora são ${hora}:${minutos}`
+
+        if (hora < 2)
+        {
+            fundo.style.background = 'rgba(0, 0, 0, 0.747)'
+            fundo.style.color = 'white'
+            link.style.color = 'white'
+            img.innerHTML = '<img src="imagens/noite.jpg" alt="imagem da noite">'
+        }
+        else if (hora < 12)
+        {
+            fundo.style.background = 'rgba(222, 184, 135, 0.61)'
+            fundo.style.color = 'white'
+            link.style.color = 'white'
+            img.innerHTML = '<img src="imagens/manha.jpg" alt="imagem da manha">'
+        }
+        else if (hora < 18)
+        {
+            fundo.style.background = '#D97904'
+            fundo.style.color = 'white'
+            link.style.color = 'white'
+            img.innerHTML = '<img src="imagens/tarde.jpg" alt="imagem da tarde">'
+        }
+    </script>
+</body>
+</html>
