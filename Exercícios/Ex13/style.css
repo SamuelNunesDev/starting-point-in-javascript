@@ -1,0 +1,32 @@
+body {
+    background-color: cornflowerblue;
+    font: normal 1.2em Arial;
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+#main {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 6px;
+}
+#main > p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
