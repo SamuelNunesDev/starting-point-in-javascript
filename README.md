@@ -44,3 +44,7 @@
     Comentários adicionados no próprio exercício exemplificando a utilização.
 
 07. Criando inputs de numeros e fazendo uma soma entre eles.
+
+08. Estruturas condicionais em JavaScript e criação de arquivos .js
+
+09. Praticando estruturas condicionais e capturando dados de inputs HTML
