@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 05</title>
+    <style>
+        body {
+            background-color: rgb(23, 152, 196);
+            color: white;
+            font: normal 1em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros Passos com DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis, dolore obcaecati numquam fugiat nemo non temporibus saepe, nostrum ex suscipit adipisci hic possimus deleniti doloribus! Ab illum autem fuga.</p>
+    <p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Delectus, vitae magni error totam quasi facilis suscipit, enim, commodi nisi nobis quibusdam cupiditate! Id nihil voluptatem et error dolore totam temporibus.</p>
+    <div>Clique em mim</div>
+    <script>
+
+        /*
+        getElementsByTagName -> Retorna os objetos pela tag HTML
+        getElementByID -> Retorna o objeto pelo ID
+        getElementsByName -> Retorna os objetos pelo name
+        getElementsByClassName -> Retorna os objetos pelo nome da classe
+        getElementBySelector ->
+        */
+
+        var element = document.getElementsByTagName('p')
+        document.write(element[0].innerText) // .innerHTML pega o texto com a formatação. Ex: tag <strong>
+        // window.alert(elemente[0].innerHTML) -> Mostra o seguinte texto: <strong>Lorem ipsum dolor sit amet</strong>, consectetur ... Ou seja, com as tags dentro do elemento em formato de texto.
+        document.write(element.length)
+        element[1].style.color = 'black'
+
+        element[0].innerText = 'Alterei o lorem'
+        element[1].innerHTML = 'Alterei o lorem adicionando <strong>tags</strong>'
+        document.getElementsByTagName('p')[0].innerText = 'Alterando propriedades sem usar variaveis!'
+
+        var body = document.body
+        body.style.background = 'lightblue'
+
+        var h1 = document.querySelector('h1')
+        h1.style.color = 'lime'
+        /*
+         Fazendo sem utilizar variaveis -> document.querySelector('h1').style.color = 'red' Obs: Posso utilizar também como parametros h1.pagina1 ou h1#principal para acessar classes e id, respectivamente
+        */
+    </script>
+</body>
+</html>
