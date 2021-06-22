@@ -48,3 +48,7 @@
 08. Estruturas condicionais em JavaScript e criação de arquivos .js
 
 09. Praticando estruturas condicionais e capturando dados de inputs HTML
+
+10. Estruturas condicionais aninhadas: `else if`
+
+11. Praticando condições com o `Switch`. *Obs: O case só funciona com números inteiros e/ou caracteres, não serve para testar intervalos também!*
