@@ -1,5 +1,5 @@
-var hora = new Date().getUTCHours()
-        var minutos = new Date().getUTCMinutes()
+var hora = new Date().getHours()
+        var minutos = new Date().getMinutes()
         var fundo = document.getElementsByTagName('body')[0]
         var img = document.querySelector('div#img')
         var msg = document.getElementsByTagName('h2')[0]
