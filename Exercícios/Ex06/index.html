@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 06</title>
+    <style>
+        div {
+            background-color: rgb(23, 184, 23);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="cursor_inner()" onmouseout="cursor_out()">Eventos DOM</div> <!--- onclick -> parametro que define a função a ser executada sob o evento -->
+    <script>
+        /*
+        Eventos DOM
+
+        mouseenter -> é acionado quando o cursor entra dentro da div
+        mouseout -> é acionado quando o cursos sai para fora da div
+        mousemove -> é acionado quando o cursor se move dentro da div
+        mousedown -> é acionado quando a div está sob o clique do cursor
+        mouseup -> é acionado quando o clique termina
+        click -> é acionado quando a div recebe um clique rapido/simples
+
+        Para mais eventos -> https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+        Para adicionar interatividades onde não precisa utilizar variaveis, é melhor usar direto no HTML (exemplo na linha 20). Quando é necessário usar variáveis é melhor utilizar só o javascript (exemplo nas linhas 38:41, 47, 52, 57)
+        */
+
+        /*
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', cursor_inner)
+        a.addEventListener('mouseout', cursor_out)
+        */
+
+        function clicar()
+        {
+           window.document.getElementById('area').innerText = 'Clicou'
+           // a.innerText = 'Clicou'
+        }
+        function cursor_inner()
+        {
+          document.getElementById('area').style.background = 'lightgreen'
+          // a.style.background = 'lightgreen'
+        }
+        function cursor_out()
+        {
+          document.getElementById('area').style.background = 'rgb(23, 184, 23)'
+          // a.style.background = 'rgb(23, 184, 23)'
+        }
+    </script>
+</body>
+</html>
