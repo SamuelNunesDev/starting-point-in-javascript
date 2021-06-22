@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 08</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do Carro: <input type="number" id="vel"> km/h
+    <p><input type="button" value="Validar!" onclick="validar()"></p>
+    <div id="res"></div>
+    <script>
+        var vel = document.querySelector('input#vel')
+        var res = document.querySelector('div#res')
+
+        function validar()
+        {
+            res.innerHTML = `<p>Você atingiu a velocidade de <strong>${vel.value}km/h</strong></p>`
+            if (Number(vel.value) > 80)
+            {
+                res.innerHTML += `<p>Velocidade máxima excedida, <strong>MULTADO!</strong></p>`
+            } else
+            {
+                res.innerHTML += `<p>Dirija sempre usando o cinto de segurança, boa viagem!</p>`
+            }
+        }
+        
+    </script>
+</body>
+</html>
