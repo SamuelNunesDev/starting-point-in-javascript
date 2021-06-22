@@ -52,3 +52,7 @@
 10. Estruturas condicionais aninhadas: `else if`
 
 11. Praticando condições com o `Switch`. *Obs: O case só funciona com números inteiros e/ou caracteres, não serve para testar intervalos também!*
+
+12. Modularizando scripts e criando um site que mostra a hora em tempo real e modifica estilos dinamicamente.
+
+13. Criando um site para verificar a idade do usuário e mostrar mensagens e imagens de forma dinamica.
