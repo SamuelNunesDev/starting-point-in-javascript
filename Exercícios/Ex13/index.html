@@ -9,16 +9,19 @@
 </head>
 <body>
     <h1>Verificador de Idade</h1>
-    <div id="main">
-        Ano de Nascimento: <input type="number" id="ano">
-        <p>
-            <form>
-                Sexo: <input type="radio" name="sexo" id="masculino" value="Homem"><label for="masculino">Masculino</label>
+    <section>
+        <div id="main">
+            Ano de Nascimento: <input type="number" id="ano">
+            <p>
+                Sexo: <input type="radio" name="sexo" id="masculino" value="Homem" checked><label for="masculino">Masculino</label>
                 <input type="radio" name="sexo" id="feminino" value="Mulher"><label for="feminino">Feminino</label>
                 <p><input type="submit" value="Verificar" onclick="verificar()"></p>
-            </form>
-        </p>
-    </div>
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
     <p><a href="https://wa.me/553888451471" target="_blank" rel="next">Fale Conosco - Samuel Nunes</a></p>
     <script src="script.js"></script>
 </body>

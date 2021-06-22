@@ -1,22 +1,22 @@
 body {
     background-color: cornflowerblue;
-    font: normal 1.2em Arial;
+    font: normal 1.1em Arial;
     text-align: center;
 }
 h1 {
     color: white;
 }
-#main {
+section {
     background-color: white;
     width: 400px;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.418);
     border-radius: 6px;
 }
-#main > p {
-    text-align: center;
+#main {
+    text-align: left;
 }
 a {
     text-decoration: none;
