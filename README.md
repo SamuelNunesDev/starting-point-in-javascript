@@ -56,3 +56,7 @@
 12. Modularizando scripts e criando um site que mostra a hora em tempo real e modifica estilos dinamicamente.
 
 13. Criando um site para verificar a idade do usuário e mostrar mensagens e imagens de forma dinamica.
+
+14. Aprendendo a sintaxe das estruturas de repetições em javascript.
+
+15. Fazendo um contador utilzando estruturas de repetições.
