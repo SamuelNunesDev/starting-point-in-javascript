@@ -75,3 +75,7 @@
 
 18. Aprendendo um pouco mais sobre funções, como passar parâmetros, utilizar parametros e deixá-los com valores pré-definidos e usar funções de forma recursiva.
     -> Comentários adicionados no próprio exercício exemplificando a utilização.
+
+19. Análisador de numeros, como criar interatividade entre várias funções, adicionar elementos html, validação de dados e armazenar valores obtidos em vetores.
+
+20. Aprendendo um pouco sobre objetos, definições, como acessar atributos e etc... *é interessante seguir os pilares de POO para definí-los quando o foco é a reutilização*
