@@ -72,3 +72,6 @@
                `console.log(num)` -> foreach
             `}`
     * `array.indexOf(n)` -> Busca dentro do vetor o índice que contém o elemento 'n'.
+
+18. Aprendendo um pouco mais sobre funções, como passar parâmetros, utilizar parametros e deixá-los com valores pré-definidos e usar funções de forma recursiva.
+    -> Comentários adicionados no próprio exercício exemplificando a utilização.
