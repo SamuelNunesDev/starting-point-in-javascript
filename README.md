@@ -60,3 +60,5 @@
 14. Aprendendo a sintaxe das estruturas de repetições em javascript.
 
 15. Fazendo um contador utilzando estruturas de repetições.
+
+16. Criando elementos html de forma dinamica.
