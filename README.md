@@ -62,3 +62,13 @@
 15. Fazendo um contador utilzando estruturas de repetições.
 
 16. Criando elementos html de forma dinamica.
+
+17. Entendendo como funcionam as arrays em javascript, alguns comandos básicos:
+    * `array.push(n)` -> Adiciona um elemento 'n' ao ultimo índice do vetor.
+    * `array.sort()` -> Orgazniza os índices do vetor.
+    * `array.length` -> Acesso a quantidade de itens no vetor *Não é um método e sim um atributo*
+    * `for (let num in array)`
+           `{`
+               `console.log(num)` -> foreach
+            `}`
+    * `array.indexOf(n)` -> Busca dentro do vetor o índice que contém o elemento 'n'.
