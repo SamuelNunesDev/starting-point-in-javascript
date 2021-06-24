@@ -1,0 +1,88 @@
+@import  url(https://fonts.googleapis.com/css?family=Raleway:400,600,800);
+
+body {
+    font-family: Raleway;
+    text-align: center;
+    background-color: #1f1f21;
+    color: rgba(255, 255, 255, 0.767);
+}
+h1 {
+    font-size: 2em;
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.651);
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav > a:hover {
+    color: white;
+    transition-duration: 0.7s;
+    text-decoration: underline;
+}
+footer {
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.747);
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 0.8em;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
+section {
+    text-align: center;
+    height: 480px;
+    background-image: url(../imagens/background.jpg);
+    background-position: center;
+}
+div {
+    margin: auto;
+    height: 100px;
+    background-color: transparent;
+}
+input {
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+input:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+}
+#op2 {
+    margin-top: 130px;
+}
+#op3 {
+    margin-top: 35px;
+}
+#bt1 {
+    margin-top: 70px;
+    margin-left: 500px;
+}
+#bt2 {
+    margin-left: 550px;
+}
+#bt3 {
+    margin-left: 405px;
+}
+#bt4 {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 115px;
+    margin-left: 30px;
+}
