@@ -1,17 +1,19 @@
 @import  url(https://fonts.googleapis.com/css?family=Raleway:400,600,800);
 
+/* HOME */
+
 body {
     font-family: Raleway;
     text-align: center;
     background-color: #1f1f21;
     color: rgba(255, 255, 255, 0.767);
 }
-nav {
-    font-size: 0.6em;
-    text-align: left;
-}
 h1 {
     font-size: 1.5em;
+}
+nav {
+    font-size: 0.6em;
+    text-align: center;
 }
 nav > a {
     color: rgba(255, 255, 255, 0.651);
@@ -22,20 +24,6 @@ nav > a {
 nav > a:hover {
     color: white;
     transition-duration: 0.7s;
-    text-decoration: underline;
-}
-footer {
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.747);
-    line-height: 30px;
-    color: rgba(255, 255, 255, 0.651);
-    font-size: 0.8em;
-}
-footer > p > a {
-    color: white;
-    text-decoration: none;
-}
-footer > p > a:hover {
     text-decoration: underline;
 }
 section {
@@ -55,7 +43,7 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 0.6em;
-    color: white;
+    color: rgba(255, 255, 255, 0.89);
     background-color: transparent;
     border: 0px;
 }
@@ -73,7 +61,7 @@ input:hover{
 }
 #bt1 {
     margin-top: 130px;
-    margin-left: 330px;
+    margin-left: 300px;
 }
 #bt2 {
     margin-left: 360px;
@@ -85,4 +73,18 @@ input:hover{
     white-space: normal;
     word-wrap: break-word;
     width: 80px;
+}
+footer {
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.747);
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 0.8em;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    text-decoration: underline;
 }
