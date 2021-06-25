@@ -1,5 +1,4 @@
 @import  url(https://fonts.googleapis.com/css?family=Raleway:400,600,800);
-@import url(https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap);
 
 /* HOME */
 
@@ -114,4 +113,61 @@ section > p {
     margin: auto;
     width: 820px;
     background-color: #1f1f21;
+}
+
+/* FALE CONOSCO */
+
+article {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.377);
+    padding: 10px;
+    color: black;
+}
+article > h2 {
+    color: black;
+}
+article > p {
+    color: black;
+    font-weight: 600;
+}
+textarea {
+    resize: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+form > input {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(27, 27, 245);
+    padding: 8px;
+    color: white;
+}
+form > input:hover {
+    background-color: rgb(1, 1, 160);
+}
+aside {
+    text-align: left;
+    margin-left: 80px;
+}
+li > a {
+    color: blue;
+    text-decoration: none;
+}
+li > a:hover {
+    text-decoration: underline;
+}
+#sobre {
+    border: 0px;
+    background-color: white;
+    color: #1f1f21;
+    font-size: 0.9em;
+}
+#sobre:hover {
+    text-decoration: underline;
 }
