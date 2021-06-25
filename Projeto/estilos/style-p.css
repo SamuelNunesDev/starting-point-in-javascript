@@ -1,4 +1,5 @@
 @import  url(https://fonts.googleapis.com/css?family=Raleway:400,600,800);
+@import url(https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap);
 
 /* HOME */
 
@@ -15,13 +16,16 @@ nav {
     font-size: 0.6em;
     text-align: center;
 }
-nav > a {
+nav > input {
+    font-size: 1;
     color: rgba(255, 255, 255, 0.651);
     text-decoration: none;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0px;
 }
-nav > a:hover {
+nav > input:hover {
     color: white;
     transition-duration: 0.7s;
     text-decoration: underline;
@@ -37,7 +41,7 @@ div {
     height: 100px;
     background-color: transparent;
 }
-input {
+div > input {
     border-radius: 6px;
     padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +51,7 @@ input {
     background-color: transparent;
     border: 0px;
 }
-input:hover{
+div > input:hover{
     background-color: white;
     color: black;
     transition-duration: 0.7s;
@@ -87,4 +91,29 @@ footer > p > a {
 }
 footer > p > a:hover {
     text-decoration: underline;
+}
+
+/* SOBRE */
+
+iframe {
+    width: 400px;
+    height: 250px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
+}
+#faleconosco {
+    color: rgba(255, 255, 255, 0.89);
+    border: 0px;
+    background-color: transparent;
+    font-weight: bold;
+}
+#faleconosco:hover {
+    text-decoration: underline;
+}
+section > p {
+    display: block;
+    padding: 8px 0px 15px 0px;
+    margin: auto;
+    width: 400px;
+    background-color: #1f1f21;
 }
