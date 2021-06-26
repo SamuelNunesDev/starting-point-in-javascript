@@ -171,3 +171,11 @@ li > a:hover {
 #sobre:hover {
     text-decoration: underline;
 }
+p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+p > a:hover {
+    text-decoration: underline;
+}

@@ -27,7 +27,7 @@ function faleConosco()
     idSection.innerHTML = ` <article id="artigo">
         <h2>Que tal colaborar para o crescimento do projeto?</h2>
         <p>Surgiu alguma dúvida ou erro?<br>Gostaria de colaborar com uma sugestão ou crítica?</p>
-        <p>Fale conosco através do whatsapp! sua mensagem será respondida do possível.</p>
+        <p>Fale conosco através do whatsapp! Sua mensagem será respondida do possível.</p>
         <form action="https://wa.me/553888451471" target="_blank" id="formulario">
             <textarea id="msg" cols="30" name="text" rows="9"></textarea>
             <input type="button" value="Enviar Mensagem" onclick="bt_msg()">
@@ -65,15 +65,15 @@ function internet()
 {
     idSection.innerHTML = ` <h2>Problemas com a Internet?</h2>
     <p>Entenda um pouco mais sobre a internet e programas de forma simples e didática: </p>
-    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/u0tDCvbjDK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
 }
 function instalacaoProgramas()
 {
     idSection.innerHTML = ` <h2>Problemas com a Instalação dos Programas?</h2>
     <p>Veja o passo a passo de como instalar todos os programas: </p>
-    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/2NyVoBpq8vQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Para fazer o download dos programas clique aqui &#x279C <a href="https://mega.nz/file/9Rl33QAb#tjKN6VXMOoxxkBhuER_Cu5qcFJEeRwcxMhaVlLEZ0Vg" rel="next" target="_blank">DOWNLOAD<a> `
 }
 function extratoGSM()
 {
