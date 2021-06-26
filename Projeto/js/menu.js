@@ -4,14 +4,14 @@ function home()
 {
     idSection.innerHTML = ` <div id="op1">
         <input type="button" value="Montar o PC"  onclick="montandoPC()">
-        <input type="button" value="Extrato GSM" id="bt1">
+        <input type="button" value="Extrato GSM" id="bt1" onclick="extratoGSM()">
     </div>
     <div id="op2">
         <input type="button" value="Internet" onclick="internet()">
-        <input type="button" value="Erros" id="bt2">
+        <input type="button" value="Erros" id="bt2" onclick="erros()">
     </div>
     <div id="op3">
-        <input type="button" value="Instalação dos Programas" id="bt4">
+        <input type="button" value="Instalação dos Programas" id="bt4" onclick="instalacaoProgramas()">
         <input type="button" value="Colaborar" id="bt3" onclick="faleConosco()">
     </div> `
 }
@@ -65,6 +65,27 @@ function internet()
 {
     idSection.innerHTML = ` <h2>Problemas com a Internet?</h2>
     <p>Entenda um pouco mais sobre a internet e programas de forma simples e didática: </p>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+}
+function instalacaoProgramas()
+{
+    idSection.innerHTML = ` <h2>Problemas com a Instalação dos Programas?</h2>
+    <p>Veja o passo a passo de como instalar todos os programas: </p>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+}
+function extratoGSM()
+{
+    idSection.innerHTML = ` <h2>Problemas com o Extrato GSM?</h2>
+    <p>Como solucionar os problemas mais comuns relacionados ao extrato GSM: </p>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+}
+function erros()
+{
+    idSection.innerHTML = ` <h2>Problemas com Erros?</h2>
+    <p>Entenda como lidar com erros sistêmicos de forma assertiva: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
 }
