@@ -7,12 +7,12 @@ function home()
         <input type="button" value="Extrato GSM" id="bt1">
     </div>
     <div id="op2">
-        <input type="button" value="Internet">
+        <input type="button" value="Internet" onclick="internet()">
         <input type="button" value="Erros" id="bt2">
     </div>
     <div id="op3">
         <input type="button" value="Instalação dos Programas" id="bt4">
-        <input type="button" value="Colaborar" id="bt3">
+        <input type="button" value="Colaborar" id="bt3" onclick="faleConosco()">
     </div> `
 }
 function sobre()
@@ -35,7 +35,7 @@ function faleConosco()
         <aside>
             <ul>
                 <li>Acesse também &#x279C <a href="https://univgx.vgxcontactcenter.com.br/" target="_blank" rel="next">UNIVGX</a></li>
-                <li>Para mais informações sobre a plataforma &#x279C <input type="button" value="SOBRE" onclick="sobre()" id="sobre"></li>
+                <li>Para mais informações sobre a plataforma clique aqui &#x279C <input type="button" value="SOBRE" onclick="sobre()" id="sobre"></li>
             </ul>
         </aside>
     </article> `
@@ -50,13 +50,21 @@ function bt_msg()
     agradecimento.innerText = 'Obrigado por colaborar!'
     article.appendChild(agradecimento)
 
+    txt.value += '\n\n _by: Projeto Mão na Roda_'
     form.submit(txt.value)
     form.parentNode.removeChild(form)
 }
 function montandoPC()
 {
-    idSection.innerHTML = ` <h2>Sobre a Plataforma</h2>
-    <p>Saiba mais sobre a plataforma e seus objetivos assistindo um breve vídeo:</p>
-    <iframe width="820px" height="350" src="https://www.youtube.com/embed/vbI5LcMXlS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    idSection.innerHTML = ` <h2>Montagem do PC</h2>
+    <p>Aprenda a montar a máquina disponibilizada de forma ágil e simples com o vídeo a seguir: </p>
+    <iframe width="820" height="360" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+}
+function internet()
+{
+    idSection.innerHTML = ` <h2>Problemas com a Internet?</h2>
+    <p>Entenda um pouco mais sobre a internet e programas de forma simples e didática: </p>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
 }
