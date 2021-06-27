@@ -79,8 +79,8 @@ function extratoGSM()
 {
     idSection.innerHTML = ` <h2>Problemas com o Extrato GSM?</h2>
     <p>Como solucionar os problemas mais comuns relacionados ao extrato GSM: </p>
-    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/S3JMZXPjeKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Para acessar o extrato GSM clique aqui &#x279C <a href="http://extratogsm/extratoGSM/default.jsp" rel="next" target="_blank">EXTRATO GSM</a></p> `
 }
 function erros()
 {
