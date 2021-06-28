@@ -13,14 +13,20 @@ function home()
     <div id="op3">
         <input type="button" value="Instalação dos Programas" id="bt4" onclick="instalacaoProgramas()">
         <input type="button" value="Colaborar" id="bt3" onclick="faleConosco()">
-    </div> `
+    </div>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function sobre()
 {
     idSection.innerHTML = ` <h2>Sobre a Plataforma</h2>
     <p>Saiba mais sobre a plataforma e seus objetivos assistindo um breve vídeo:</p>
     <iframe width="820px" height="350" src="https://www.youtube.com/embed/vbI5LcMXlS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function faleConosco()
 {
@@ -38,7 +44,10 @@ function faleConosco()
                 <li>Para mais informações sobre a plataforma clique aqui &#x279C <input type="button" value="SOBRE" onclick="sobre()" id="sobre"></li>
             </ul>
         </aside>
-    </article> `
+    </article>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function bt_msg()
 {
@@ -59,35 +68,50 @@ function montandoPC()
     idSection.innerHTML = ` <h2>Montagem do PC</h2>
     <p>Aprenda a montar a máquina disponibilizada de forma ágil e simples com o vídeo a seguir: </p>
     <iframe width="820" height="360" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function internet()
 {
     idSection.innerHTML = ` <h2>Problemas com a Internet?</h2>
     <p>Entenda um pouco mais sobre a internet e programas de forma simples e didática: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/u0tDCvbjDK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function instalacaoProgramas()
 {
     idSection.innerHTML = ` <h2>Problemas com a Instalação dos Programas?</h2>
     <p>Veja o passo a passo de como instalar todos os programas: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/2NyVoBpq8vQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Para fazer o download dos programas clique aqui &#x279C <a href="https://mega.nz/file/9Rl33QAb#tjKN6VXMOoxxkBhuER_Cu5qcFJEeRwcxMhaVlLEZ0Vg" rel="next" target="_blank">DOWNLOAD<a> `
+    <p>Para fazer o download dos programas clique aqui &#x279C <a href="https://mega.nz/file/9Rl33QAb#tjKN6VXMOoxxkBhuER_Cu5qcFJEeRwcxMhaVlLEZ0Vg" rel="next" target="_blank">DOWNLOAD<a>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function extratoGSM()
 {
     idSection.innerHTML = ` <h2>Problemas com o Extrato GSM?</h2>
     <p>Como solucionar os problemas mais comuns relacionados ao extrato GSM: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/S3JMZXPjeKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Para acessar o extrato GSM clique aqui &#x279C <a href="http://extratogsm/extratoGSM/default.jsp" rel="next" target="_blank">EXTRATO GSM</a></p> `
+    <p>Para acessar o extrato GSM clique aqui &#x279C <a href="http://extratogsm/extratoGSM/default.jsp" rel="next" target="_blank">EXTRATO GSM</a></p>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function erros()
 {
     idSection.innerHTML = ` <h2>Problemas com Erros?</h2>
     <p>Entenda como lidar com erros sistêmicos de forma assertiva: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Agora para provar a si mesmo que está por dentro de como solucionar erros frequentes conclua os exercícios propostos clicando aqui &#x279C <input type="button" value="EXERCÍCIOS" onclick="exercicios()" id="exercicios"></p> `
+    <p>Agora para provar a si mesmo que está por dentro de como solucionar erros frequentes conclua os exercícios propostos clicando aqui &#x279C <input type="button" value="EXERCÍCIOS" onclick="exercicios()" id="exercicios"></p>
+    <footer id="developer">
+        <p>Desenvolvido por Samuel Nunes</p>
+    </footer> `
 }
 function exercicios()
 {
@@ -312,7 +336,7 @@ function finalizarTeste()
             <footer>
                 <p>Desenvolvido por Samuel Nunes</p>
             </footer>
-        <article> `
+        </article> `
     }
     else if (acertos < 7)
     {
@@ -325,7 +349,7 @@ function finalizarTeste()
         <footer>
             <p>Desenvolvido por Samuel Nunes</p>
         </footer>
-    <article> `
+    </article> `
     }
     else if (acertos < 10)
     {
@@ -338,7 +362,7 @@ function finalizarTeste()
         <footer>
             <p>Desenvolvido por Samuel Nunes</p>
         </footer>
-    <article> `
+    </article> `
     }
     else
     {
@@ -351,6 +375,6 @@ function finalizarTeste()
         <footer>
             <p>Desenvolvido por Samuel Nunes</p>
         </footer>
-    <article> `
+    </article> `
     }
 }
