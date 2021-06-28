@@ -31,7 +31,7 @@ nav > input:hover {
 section {
     text-align: center;
     height: 480px;
-    background-image: url(../imagens/background-m.jpg);
+    background-image: url(../imagens/background/background-m.jpg);
     background-position: center;
 }
 div {

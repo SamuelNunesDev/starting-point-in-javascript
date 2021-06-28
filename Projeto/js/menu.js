@@ -87,5 +87,12 @@ function erros()
     idSection.innerHTML = ` <h2>Problemas com Erros?</h2>
     <p>Entenda como lidar com erros sistêmicos de forma assertiva: </p>
     <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" id="faleconosco"></p> `
+    <p>Agora para provar a si mesmo que está por dentro de como solucionar erros frequentes conclua os exercícios propostos clicando aqui &#x279C <input type="button" value="EXERCÍCIOS" onclick="exercicios()" id="exercicios"></p> `
+}
+function exercicios()
+{
+    idSection.innerHTML = ` <article id="artigo">
+        <h2>Vamos Exercitar os Conhecimentos Adquiridos?</h2>
+        
+    </article> `
 }

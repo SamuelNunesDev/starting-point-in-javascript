@@ -31,7 +31,7 @@ nav > input:hover, .menu {
 section {
     text-align: center;
     height: 480px;
-    background-image: url(../imagens/background.jpg);
+    background-image: url(../imagens/background/background.jpg);
     background-position: center;
 }
 div {
@@ -98,13 +98,13 @@ iframe {
     border-radius: 4px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
 }
-#faleconosco {
+#faleconosco, #exercicios {
     color: rgba(255, 255, 255, 0.89);
     border: 0px;
     background-color: transparent;
     font-weight: bold;
 }
-#faleconosco:hover {
+#faleconosco:hover, #exercicios:hover {
     text-decoration: underline;
 }
 section > p {
@@ -123,7 +123,7 @@ article {
     margin: auto;
     border-radius: 4px;
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.377);
-    padding: 10px;
+    padding: 10px 40px;
     color: black;
 }
 article > h2 {
@@ -178,4 +178,31 @@ p > a {
 }
 p > a:hover {
     text-decoration: underline;
+}
+
+/* EXERCÍCIOS */
+
+.exercicio {
+    text-align: justify;
+    width: 620px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.img-exercicio {
+    width: 600px;
+    height: 346px;
+    border-radius: 4px;
+}
+#bt-exercicio {
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(7, 170, 7);
+    padding: 6px;
+    border: 0px;
+    font-size: 1.2em;
+    border-radius: 4px;
+}
+#bt-exercicio:hover {
+    background-color: green;
 }
