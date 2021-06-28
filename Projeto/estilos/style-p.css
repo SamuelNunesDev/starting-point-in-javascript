@@ -84,13 +84,6 @@ footer {
     color: rgba(255, 255, 255, 0.651);
     font-size: 0.8em;
 }
-footer > p > a {
-    color: white;
-    text-decoration: none;
-}
-footer > p > a:hover {
-    text-decoration: underline;
-}
 
 /* SOBRE */
 
@@ -100,13 +93,14 @@ iframe {
     border-radius: 4px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
 }
-#faleconosco {
+.bt_hyperlink_black {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.89);
     border: 0px;
     background-color: transparent;
     font-weight: bold;
 }
-#faleconosco:hover {
+.bt_hyperlink_black:hover {
     text-decoration: underline;
 }
 section > p {
@@ -157,19 +151,52 @@ aside {
     text-align: left;
     margin-left: 0px;
 }
-li > a {
+.univgx {
     color: blue;
     text-decoration: none;
+    font-weight: bold;
 }
-li > a:hover {
+.univgx:hover {
     text-decoration: underline;
 }
-#sobre {
+.bt_hyperlink {
     border: 0px;
     background-color: white;
-    color: #1f1f21;
-    font-size: 0.8em;
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
 }
-#sobre:hover {
+.bt_hyperlink:hover {
     text-decoration: underline;
+}
+
+/* EXERCÍCIOS */
+
+.exercicio {
+    text-align: justify;
+    width: 620px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.img-exercicio {
+    width: 400px;
+    height: 200px;
+    border-radius: 4px;
+}
+#bt-exercicio {
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(7, 170, 7);
+    padding: 6px;
+    border: 0px;
+    font-size: 1.2em;
+    border-radius: 4px;
+}
+#bt-exercicio:hover {
+    background-color: green;
+}
+.resultado {
+    text-align: left;
+    text-indent: 2em;
 }

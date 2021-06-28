@@ -84,13 +84,6 @@ footer {
     font-size: 0.8em;
     border-radius: 4px;
 }
-footer > p > a {
-    color: white;
-    text-decoration: none;
-}
-footer > p > a:hover {
-    text-decoration: underline;
-}
 
 /* SOBRE */
 
@@ -99,13 +92,14 @@ iframe {
     border-radius: 4px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
 }
-#faleconosco, #exercicios {
+.bt_hyperlink_black {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.89);
     border: 0px;
     background-color: transparent;
     font-weight: bold;
 }
-#faleconosco:hover, #exercicios:hover {
+.bt_hyperlink_black:hover{
     text-decoration: underline;
 }
 section > p {
@@ -159,17 +153,19 @@ aside {
 .univgx {
     color: blue;
     text-decoration: none;
+    font-weight: bold;
 }
 .univgx:hover {
     text-decoration: underline;
 }
-#sobre, #faleconosco-exercicio {
+.bt_hyperlink {
     border: 0px;
     background-color: white;
     color: blue;
     font-size: 1em;
+    font-weight: bold;
 }
-#sobre:hover, #faleconosco-exercicio:hover {
+.bt_hyperlink:hover {
     text-decoration: underline;
 }
 p > a {
