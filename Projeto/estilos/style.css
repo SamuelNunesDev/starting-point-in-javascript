@@ -155,20 +155,20 @@ aside {
     text-align: left;
     margin-left: 80px;
 }
-li > a {
+.univgx {
     color: blue;
     text-decoration: none;
 }
-li > a:hover {
+.univgx:hover {
     text-decoration: underline;
 }
-#sobre {
+#sobre, #faleconosco-exercicio {
     border: 0px;
     background-color: white;
-    color: #1f1f21;
-    font-size: 0.9em;
+    color: blue;
+    font-size: 1em;
 }
-#sobre:hover {
+#sobre:hover, #faleconosco-exercicio:hover {
     text-decoration: underline;
 }
 p > a {
@@ -205,4 +205,8 @@ p > a:hover {
 }
 #bt-exercicio:hover {
     background-color: green;
+}
+.resultado {
+    text-align: left;
+    text-indent: 2em;
 }
