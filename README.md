@@ -1,5 +1,9 @@
 # Notas Importantes
 
+## Projeto
+
+Clique no link para ser desviado para o projeto ->  [https://samuelnunesdev.github.io/starting-point-in-javascript/Projeto/](https://samuelnunesdev.github.io/starting-point-in-javascript/Projeto/)
+
 ## Exercícios
 
 01. Enviando caixas de mensagens ao usuário pelo navegador usando os comandos:
