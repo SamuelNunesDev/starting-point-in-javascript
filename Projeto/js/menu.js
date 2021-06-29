@@ -22,7 +22,7 @@ function sobre()
 {
     idSection.innerHTML = ` <h2>Sobre a Plataforma</h2>
     <p>Saiba mais sobre a plataforma e seus objetivos assistindo um breve vídeo:</p>
-    <iframe width="820px" height="350" src="https://www.youtube.com/embed/vbI5LcMXlS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/2YypI--WE3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" class="bt_hyperlink_black"></p>
     <footer id="developer">
         <p>Desenvolvido por Samuel Nunes</p>
@@ -67,7 +67,7 @@ function montandoPC()
 {
     idSection.innerHTML = ` <h2>Montagem do PC</h2>
     <p>Aprenda a montar a máquina disponibilizada de forma ágil e simples com o vídeo a seguir: </p>
-    <iframe width="820" height="360" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="820" height="330" src="https://www.youtube.com/embed/6hGaE3ZFEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>Então é isto... para sugestões, críticas, elogios clique aqui &#x279C <input type="button" value="FALE CONOSCO" onclick="faleConosco()" class="bt_hyperlink_black"></p>
     <footer id="developer">
         <p>Desenvolvido por Samuel Nunes</p>
